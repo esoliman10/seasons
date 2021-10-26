@@ -21,11 +21,11 @@ class App extends React.Component {
       err => this.setState({ errorMessage: err.message  })
     );
   }
-
+/*
   componentDidUpdate() {
     console.log("My component was just updated - it rerendered!")
   }
-
+*/
   renderContent() {
     if (this.state.lat && !this.state.errorMessage) {
       // return <div>Latitude: {this.state.lat}</div>
